@@ -1,9 +1,10 @@
 # EasyDialogue for UE5
 
 Unreal Version: UE 5.1.1
+
 Currently Compatible Platforms: Windows
 
-EasyDialogue is plugin that provides the architecture of a dialogue system, together with a lot of customizability.
+EasyDialogue is a plugin that provides the architecture of a dialogue system, together with a lot of customizability.
 
 ## Features
 
@@ -44,6 +45,8 @@ Classes to be used are the one's inside the "UserClasses" Folder. Here, the widg
 
 To create a dialogue asset, first, right click inside Unreal Engine's content browser and create a generic graph asset. Inside this asset, set the node type to BP_EasyDialogueNode and the set edge type to BP_EasyDialogueEdge. It is easier to do this once and copy the created dialogue assets.
 
+![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/graph%20settings.png "branching")
+
 ### BP_EasyDialogueNode
 
 This is where you specify the settings for the dialogue box widget. Here you can set:
@@ -72,9 +75,20 @@ The text styles provided are:
 
 It is recommended to only use the small text by itself, since when combining small and bigger text and using the small text as the first in a line, there will be a jumping in text as soon as bigger text appears. More information about how text styles are used is given later in this README.
 
+![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/old%20man.png "branching")
+
+![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/answers.png "branching")
+
+
+
 ### BP_EasyDialogueEdge
 
 These edges connect the dialogue boxes in a sequence. When having branching to due player answers inside the graph, pull an edge for each answer from that dialogue box to a new separate box. In the edges properties, specify the index the answer has in the PlayerAnswers array of the dialogue box that required the answer.
+
+![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/linear%20graph.png "branching")
+
+
+![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/graph%20branching.png "branching")
 
 ### BP_EasyDialogueComponent_Player
 
