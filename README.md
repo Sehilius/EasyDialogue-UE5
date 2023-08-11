@@ -48,7 +48,7 @@ To create a dialogue asset, first, right click inside Unreal Engine's content br
 
 ### BP_EasyDialogueNode
 
-The are the nodes you can place by right clicking inside the empty graph of the dialogue asset. This is where you specify the settings for the dialogue box widget. Here you can set:
+These are the nodes you can place by right clicking inside the empty graph of the dialogue asset. This is where you specify the settings for the dialogue box widget. Here you can set:
 
 - Speaker name
 - Dialogue box text
@@ -57,13 +57,13 @@ The are the nodes you can place by right clicking inside the empty graph of the 
 - Typewriter speed
 - Typewriter sounds to be randomly played
 - Music to play when a dialogue box gets executed (this will reset to the level music after the dialogue ends)
-- Stop music
-- Sentence pause duration (Duration the typewriter pauses after punctuation
+- Stop playing music
+- Sentence pause duration (Duration the typewriter pauses after punctuation)
 - Speaker voiceline to be played
 - Dialogue box name (important for event binding)
 - Player answers
 
-To specify dialogue text, create a new element in the array. This will create an object where you can choose the style, text and the pause duration after this segment. You can combine as many as you like to form the final text. When specifying player answers. you can add as many answers as you like. These will be the names of the buttons that appear when the player can select between answers
+To specify dialogue text, create a new element in the array. This will create an object where you can choose the style, text and the pause duration after this segment. You can combine as many as you like to form the final text. When specifying player answers. You can add as many answers as you like. These will be the names of the buttons that appear when the player can select between answers
 
 The text styles provided are:
 
@@ -108,12 +108,12 @@ This is the table containing the text styles. Here, you can customize the text s
 
 A tutorial about the RichTextBlock and data tables with rich text styles can be found [here](https://youtu.be/9M4rjznF7Ys).
 
-### Dialogue Settings
+### DA_EasyDialogueSettings
 Contain the sprites, audio, and style data table to be used. You can create as many of these as you want. The asset specified in DA_EasyDialogueGeneralSettings will be the one used within the game. If sprites are left empty, borders within the widgets need to be adjusted, otherwise they will draw a white box
 
 ### Widgets
 
-The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties, so it fits the reslution of your game. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
+The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties, so it fits the resolution of your game. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
 
 ### BP_EasyDialogueAudioHandler
 
