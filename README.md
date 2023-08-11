@@ -4,7 +4,7 @@ Unreal Version: UE 5.1.1
 
 Currently Compatible Platforms: Windows
 
-EasyDialogue is a plugin that provides the architecture of a dialogue system, together with a lot of customizability.
+EasyDialogue is a plugin that provides the architecture of a dialogue system, together with a lot of customizability. For more information about this plugin, please view the documentation in this repository.
 
 ## Features
 
