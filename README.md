@@ -128,7 +128,7 @@ The plugin supports binding events to a certain dialogue box of the currently se
 
 ### Demo Map
 
-The Plugin comes with a demo map, where you can interact with NPCs, demonstrating some of EasyDialogue's features. This map requires Unreal Engine third person template In this map. You can move around with "WASD", jump with "spacebar", and interact with "E". For dialogues, you can proceed with "E", toggle fast forward with "spacebar", select between answers with "W" and "S", and select an answer with "E". The BP_EasyDialoguePlayerCharacter class demonstrates how one can set up the AC_EasyDialogueComponent_Player class on the player pawn. Examples for all other functionality are also found there, so check out the code!
+The Plugin comes with a demo map, where you can interact with NPCs, demonstrating some of EasyDialogue's features. This map requires Unreal Engine's third person template. You can move around with "WASD", jump with "spacebar", and interact with "E". For dialogues, you can proceed with "E", toggle fast forward with "spacebar", select between answers with "W" and "S", and select an answer with "E". The BP_EasyDialoguePlayerCharacter class demonstrates how one can set up the AC_EasyDialogueComponent_Player class on the player pawn. Examples for all other functionality are also found there, so check out the code!
 
 
 
