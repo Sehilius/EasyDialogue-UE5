@@ -50,7 +50,7 @@ To create a dialogue asset, first, right click inside Unreal Engine's content br
 
 ### BP_EasyDialogueNode
 
-This is where you specify the settings for the dialogue box widget. Here you can set:
+The are the nodes you can place by right clicking inside the empty graph of the dialogue asset. This is where you specify the settings for the dialogue box widget. Here you can set:
 
 - Speaker name
 - Dialogue box text
