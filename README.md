@@ -103,7 +103,7 @@ Contain the sprites, audio, and style data table to be used. You can create as m
 
 The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
 
-### EasyDialogueAudioHandler
+### BP_EasyDialogueAudioHandler
 
 This class handles all dialogue sound and level music. For it to work, drag it inside the level and set the level's music inside that instance.
 
