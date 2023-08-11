@@ -99,7 +99,7 @@ First, you need to bind events that disable and enable the pawn's movement, so t
 
 Second, you can use the events of the component to the desired controls. For this, use "OnTryToInteract" to interact with objects, "OnToggleFastForward" to toggle the typewriter's fast forward, and "AnswerMoveUp" and "AnswerMoveDown" to navigate between answers. In this version, interacting, proceeding and selecting an answer to all share the same event. Which means they will all share the key.
 
-The "OnTryToInteract" needs a capsule collider as an input, which will be used to detect interactable objects. This capsule collider will need to be added to your pawn.
+The "OnTryToInteract" event needs a capsule collider as an input, which will be used to detect interactable objects. This capsule collider will need to be added to your pawn.
 
 ### BP_EasyDialogueComponent_NPC
 
