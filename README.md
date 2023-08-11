@@ -83,7 +83,7 @@ It is recommended to only use the small text by itself, since when combining sma
 
 ### BP_EasyDialogueEdge
 
-These edges connect the dialogue boxes in a sequence. When having branching to due player answers inside the graph, pull an edge for each answer from that dialogue box to a new separate box. In the edges properties, specify the index the answer has in the PlayerAnswers array of the dialogue box that required the answer.
+These edges connect the dialogue boxes in a sequence. When having branching to due player answers inside the graph, pull an edge for each answer from that dialogue box to a new separate box. In the edges properties, specify the index the answer has in the PlayerAnswers array of the dialogue box that required the answer in "SelectedOption".
 
 ![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/linear%20graph.png "branching")
 
