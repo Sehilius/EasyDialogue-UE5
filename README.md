@@ -35,7 +35,7 @@ The typewriter supports customizable settings like  animation speed and comes wi
 
 To download the plugin, simply download this repository. In the project the plugin will be added to, create a folder called "Plugins" on the same layer as the URPOJECT file. Extract the downloaded .zip and place the "EasyDialogue" folder into the Plugins folder.
 
-To use this plugin, another plugin called [GenericGraph](https://github.com/jinyuliao/GenericGraph) is also required. A tutorial to install it is provided on it's GitHub page, but is similar to the installation of EasyDialogue.
+To use this plugin, another plugin called [GenericGraph](https://github.com/jinyuliao/GenericGraph) is also required. A tutorial to how to install and use it is provided on it's GitHub page, but is similar to the installation of EasyDialogue.
 
 ## Setup Guide
 
