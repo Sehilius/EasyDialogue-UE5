@@ -109,7 +109,7 @@ This is the component that needs to be added to every object that the player can
 
 This is the table containing the text styles. Here, you can customize the text styles and set your own font, but DO NOT change the name of the styles. If the style names needs to be edited or additional styles are needed, adjust the E_EasyDialogueTestStyle enum accordingly. An addition to the previously mentioned styles, there are also two styles for answers. AnswerNormal is the style for answers that are currently not hovered by the player and AnswerHovered is for the answer that is currently hovered.
 
-A tutorial about the RichTextBlock and data tables with rich text styles can be found [here](https://youtu.be/9M4rjznF7Ys)
+A tutorial about the RichTextBlock and data tables with rich text styles can be found [here](https://youtu.be/9M4rjznF7Ys).
 
 ### Dialogue Settings
 Contain the sprites, audio, and style data table to be used. You can create as many of these as you want. The asset specified in DA_EasyDialogueGeneralSettings will be the one used within the game. If sprites are left empty, borders within the widgets need to be adjusted, otherwise they will draw a white box
