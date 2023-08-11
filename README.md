@@ -63,7 +63,7 @@ The are the nodes you can place by right clicking inside the empty graph of the 
 - Dialogue box name (important for event binding)
 - Player answers
 
-To specify dialogue text, create a new element in the array. This will create an object where you can choose the style, text and the pause duration after this segment. When specifying player answers. you can add as many answers as you like. These will be the names of the buttons that appear when the player can select between answers
+To specify dialogue text, create a new element in the array. This will create an object where you can choose the style, text and the pause duration after this segment. You can combine as many as you like to form the final text. When specifying player answers. you can add as many answers as you like. These will be the names of the buttons that appear when the player can select between answers
 
 The text styles provided are:
 
