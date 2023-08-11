@@ -80,8 +80,6 @@ It is recommended to only use the small text by itself, since when combining sma
 
 ![alt text](https://github.com/Sehilius/EasyDialogue-UE5/blob/main/Images/answers.png "branching")
 
-
-
 ### BP_EasyDialogueEdge
 
 These edges connect the dialogue boxes in a sequence. When having branching to due player answers inside the graph, pull an edge for each answer from that dialogue box to a new separate box. In the edges properties, specify the index the answer has in the PlayerAnswers array of the dialogue box that required the answer in "SelectedOption".
@@ -116,7 +114,7 @@ Contain the sprites, audio, and style data table to be used. You can create as m
 
 ### Widgets
 
-The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
+The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties, so it fits the reslution of your game. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
 
 ### BP_EasyDialogueAudioHandler
 
