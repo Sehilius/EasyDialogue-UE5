@@ -38,7 +38,7 @@ To use this plugin, another plugin called [GenericGraph](https://github.com/jiny
 
 ## Setup Guide
 
-Classes to be used are the one's inside the "UserClasses" folder. Here, the widgets, BP_EasyDialogueAudioHandler and empty settings and a style table are provided. You can edit these like you want. If necessary, you can also edit the functionality of the classes inside the "PluginFunctionality" folder.
+Classes to be customized are the one's inside the "UserClasses" folder. Here, the widgets, BP_EasyDialogueAudioHandler and empty settings and a style table are provided. You can edit these like you want. If necessary, you can also edit the functionality of the classes inside the "PluginFunctionality" folder.
 
 ### Dialogues
 
