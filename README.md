@@ -15,7 +15,6 @@ This plugin let's the you:
 - use different text styles (font, colored, small)
 - specify pauses of customizable length after words
 - set music dependent on the dialogue
-- stop music
 - specify voice lines or sounds for every dialogue box
 - creating branching 
 - use a typewriter animation style
@@ -59,6 +58,7 @@ The are the nodes you can place by right clicking inside the empty graph of the 
 - Typewriter speed
 - Typewriter sounds to be randomly played
 - Music to play when a dialogue box gets executed (this will reset to the level music after the dialogue ends)
+- Stop music
 - Sentence pause duration (Duration the typewriter pauses after punctuation
 - Speaker voiceline to be played
 - Dialogue box name (important for event binding)
