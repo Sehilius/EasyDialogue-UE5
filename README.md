@@ -25,7 +25,8 @@ This plugin let's the you:
 - switch the dialogue of a character based on events
 - set the sprites for the dialogue box, names, answers, answer backgrounds, and an icon that appears when the text is finished
 - set the text style for answers
-- set sounds to be played wen proceeding in dialogue, moving between answers, selecting an answers, and toggling fast forward
+- set sounds to be played when proceeding in dialogue, moving between answers, selecting an answers, and toggling fast forward
+- set the dialogue assets with code
 
 The typewriter supports customizable settings like  animation speed and comes with a fast forward function, which's speed is also customizable
 
@@ -96,13 +97,13 @@ This is the table containing the text styles. Here, you can customize the text s
 A tutorial about the RichTextBlock and data tables with rich text styles can be found [here](https://youtu.be/9M4rjznF7Ys)
 
 ### Dialogue Settings
-Contain the sprites, audio, and style data table to be used. You can create as many of these as you want. The asset specified in DA_EasyDialogueGeneralSettings will be the one used within the game. If sprites are left empty.
+Contain the sprites, audio, and style data table to be used. You can create as many of these as you want. The asset specified in DA_EasyDialogueGeneralSettings will be the one used within the game. If sprites are left empty, borders within the widgets need to be adjusted, otherwise they will draw a white box
 
 ### Widgets
 
 The three widgets will automatically read the sprites specified in the dialogue settings data asset that is currently used. You can further adjust the widgets positions and other properties. To counter sprite stretching, you can adjust the margin inside the border, which works similar to 9-slicing.
 
-### EasyDialogueAudioHandler
+### BP_EasyDialogueAudioHandler
 
 This class handles all dialogue sound and level music. For it to work, drag it inside the level and set the level's music inside that instance.
 
