@@ -15,6 +15,7 @@ This plugin let's the you:
 - use different text styles (font, colored, small)
 - specify pauses of customizable length after words
 - set music dependent on the dialogue
+- stop music
 - specify voice lines or sounds for every dialogue box
 - creating branching 
 - use a typewriter animation style
