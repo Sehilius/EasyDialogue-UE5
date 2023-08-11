@@ -102,7 +102,7 @@ The "OnTryToInteract" needs a capsule collider as an input, which will be used t
 
 ### BP_EasyDialogueComponent_NPC
 
-This is the component that needs to be added to every object that the player can start a dialogue with. Here, you can set the current dialogue asset to use on interaction and dialogue start sounds, which randomly play when the interaction is started.
+This is the component that needs to be added to every object that the player can start a dialogue with. Here, you can set the current dialogue asset to use on interaction and dialogue start sounds, which randomly play when the interaction is started. The value of "CurrentDialogue" can be changed during the game with code. This gives the ability of changing a characters dialogue based on certain events.
 
 ### Style Data Table
 
