@@ -53,12 +53,12 @@ These are the nodes you can place by right clicking inside the empty graph of th
 - Speaker name
 - Dialogue box text
 - Pauses in the typewriter animation
-- Animation style (Default or Typewriter)
+- Animation style (default or typewriter)
 - Typewriter speed
 - Typewriter sounds to be randomly played
 - Music to play when a dialogue box gets executed (this will reset to the level music after the dialogue ends)
 - Stop playing music
-- Sentence pause duration (Duration the typewriter pauses after punctuation)
+- Sentence pause duration (duration the typewriter pauses after punctuation)
 - Speaker voiceline to be played
 - Dialogue box name (important for event binding)
 - Player answers
