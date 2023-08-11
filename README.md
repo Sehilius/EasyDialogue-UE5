@@ -16,7 +16,6 @@ This plugin let's the you:
 - specify pauses of customizable length after words
 - set music dependent on the dialogue
 - specify voice lines or sounds for every dialogue box
-- creating branching 
 - use a typewriter animation style
 - specify sounds for characters to be played when interacted with
 - specify answers the player can give to a dialogue box
