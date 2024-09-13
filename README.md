@@ -1,6 +1,6 @@
 # EasyDialogue for UE5
 
-Unreal Version: UE 5.1.1
+Unreal Version: UE 5.2.1
 
 Currently Compatible Platforms: Windows
 
